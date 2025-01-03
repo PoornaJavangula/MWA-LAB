@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th,td {
+        border:1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+      
+    </style>
+<body>
+    <table>
+        <tr>
+            <th>Image of toy</th>
+            <th>Description of the toy</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td><img src="C:\Users\exam2\Desktop\Y22CB025\toy1.jpg" alt= "toy1"></td>
+            <td>A duck also known as vidyamooon</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td><img src="C:\Users\exam2\Desktop\Y22CB025\toy4.jpeg" alt= "toy4"></td>
+            <td>Phineas as charvi and ferb as poori</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td><img src="C:\Users\exam2\Desktop\Y22CB025\toy 5.jpg" alt= "toy 5"></td>
+            <td>hema malinii featured as henry</td>
+            <td>500</td>
+        </tr>
+    </table>
+</body>
+</html>
