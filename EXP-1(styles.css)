@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #0047cc;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00b4cc;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav.sidebar ul {
+    padding: 10px;
+}
+
+nav.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+nav.sidebar ul li a {
+    color: #0044cc;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Main Content Section */
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    padding-right: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.main-content h2 {
+    color: #0044cc;
+}
+
+.main-content p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Link Hover Effect */
+a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+}
